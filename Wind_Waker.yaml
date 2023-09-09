@@ -1,0 +1,16 @@
+# Welcome to the Wind Waker YAML File
+#
+# As of now there is only one customizable option: Deathlink
+# This option is a bit buggy. If you do want it, after you die make sure to load back into the game kinda fast.
+#
+
+name: ToonLink
+game: Wind Waker
+
+requires:
+  version: 0.4.2
+
+Wind Waker:
+  death_link:
+    true: 50
+    false: 0
